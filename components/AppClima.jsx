@@ -5,7 +5,7 @@ import useClima from "../hooks/useClima"
 
 const AppClima = () => {
   const { cargando, sinResult, climaResultado } = useClima()
-  console.log(sinResult)
+
   return (
     <>
       <main className="dos-columnas">
